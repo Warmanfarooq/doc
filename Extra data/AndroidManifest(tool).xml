@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pdftron.pdf.tools" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <application>
+        <provider
+            android:name="com.pdftron.pdf.utils.PDFTronToolsInitializer"
+            android:authorities="${applicationId}.pdftron-tools"
+            android:exported="false" />
+        <provider
+            android:name="com.pdftron.pdfnet.PDFNetInitializer"
+            android:authorities="${applicationId}.pdftron-pdfnet"
+            tools:node="remove" />
+        <provider
+            android:name="com.pdftron.pdf.utils.ShareProvider"
+            android:authorities="${applicationId}.pdftron.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

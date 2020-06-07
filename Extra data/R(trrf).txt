@@ -1,0 +1,4 @@
+int raw pdfnet 0x7f130001
+int raw pdftron_layout_resources 0x7f130002
+int raw pdftron_smart_substitution 0x7f130003
+int string app_name 0x7f140001
