@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Sort Annotation List -->
+    <item
+        android:id="@id/action_sort"
+        android:title="@string/action_sort"
+        android:icon="@drawable/ic_sort_small"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_annotlist_sort_by_date"
+                    android:title="@string/action_sort_annotlist_by_date"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_annotlist_sort_by_position"
+                    android:title="@string/action_sort_annotlist_by_position"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/done"
+        android:title="@string/done"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/select_type"
+        android:title="@string/widget_choice_menu_selection_mode"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/single_select"
+                    android:title="@string/widget_choice_menu_select_single"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/multiple_select"
+                    android:title="@string/widget_choice_menu_select_multiple"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

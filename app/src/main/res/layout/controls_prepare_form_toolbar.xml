@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/layout_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_form_field_toolbar_widget_text"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_form_text"
+        android:nextFocusLeft="@id/controls_form_field_toolbar_widget_text"
+        android:nextFocusRight="@id/controls_form_field_toolbar_widget_text"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/controls_form_field_toolbar_widget_checkbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_text_fields_black_24dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_form_field_toolbar_widget_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_form_checkbox"
+        android:nextFocusLeft="@id/controls_form_field_toolbar_widget_checkbox"
+        android:nextFocusRight="@id/controls_form_field_toolbar_widget_checkbox"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_form_field_toolbar_widget_text"
+        app:layout_constraintEnd_toStartOf="@id/controls_form_field_toolbar_widget_radio"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_check_box_black_24dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_form_field_toolbar_widget_radio"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_form_radio_group"
+        android:nextFocusLeft="@id/controls_form_field_toolbar_widget_radio"
+        android:nextFocusRight="@id/controls_form_field_toolbar_widget_radio"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_form_field_toolbar_widget_checkbox"
+        app:layout_constraintEnd_toStartOf="@id/controls_form_field_toolbar_widget_listbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_form_field_toolbar_widget_listbox"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_form_list_box"
+        android:nextFocusLeft="@id/controls_form_field_toolbar_widget_listbox"
+        android:nextFocusRight="@id/controls_form_field_toolbar_widget_listbox"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_form_field_toolbar_widget_radio"
+        app:layout_constraintEnd_toStartOf="@id/controls_form_field_toolbar_widget_combobox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_annotation_listbox_black" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_form_field_toolbar_widget_combobox"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_form_combo_box"
+        android:nextFocusLeft="@id/controls_form_field_toolbar_widget_combobox"
+        android:nextFocusRight="@id/controls_form_field_toolbar_widget_combobox"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_form_field_toolbar_widget_listbox"
+        app:layout_constraintEnd_toStartOf="@id/controls_form_field_toolbar_widget_signature"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_annotation_combo_black" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_form_field_toolbar_widget_signature"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_signature"
+        android:nextFocusLeft="@id/controls_form_field_toolbar_widget_signature"
+        android:nextFocusRight="@id/controls_form_field_toolbar_widget_signature"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_form_field_toolbar_widget_combobox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_annotation_signature_black_24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

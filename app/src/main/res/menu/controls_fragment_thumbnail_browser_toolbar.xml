@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/controls_action_edit"
+        android:title="@string/tools_qm_edit"
+        app:showAsAction="always|withText" />
+
+    <!-- Filter -->
+    <item
+        android:id="@id/action_filter"
+        android:title="@string/action_filter"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_filter_all"
+                    android:title="@string/action_filter_thumbnails_all"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_filter_annotated"
+                    android:title="@string/action_filter_thumbnails_annotated"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/menu_filter_bookmarked"
+                    android:title="@string/action_filter_thumbnails_bookmarked"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

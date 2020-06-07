@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_line_height"
+        android:text="@string/action_pdf_layers"
+        android:textAppearance="?android:attr/textAppearanceListItem"/>
+
+    <com.pdftron.pdf.dialog.pdflayer.PdfLayerView
+        android:id="@+id/pdf_layer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

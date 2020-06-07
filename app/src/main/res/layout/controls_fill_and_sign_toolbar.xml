@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/layout_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_fill_and_sign_toolbar_text"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_free_text"
+        android:nextFocusLeft="@id/controls_fill_and_sign_toolbar_text"
+        android:nextFocusRight="@id/controls_fill_and_sign_toolbar_text"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/controls_fill_and_sign_toolbar_checkmark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_fill_and_sign_spacing_text" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_fill_and_sign_toolbar_checkmark"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/controls_fill_and_sign_toolbar_btn_description_checkmark"
+        android:nextFocusLeft="@id/controls_fill_and_sign_toolbar_checkmark"
+        android:nextFocusRight="@id/controls_fill_and_sign_toolbar_checkmark"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_fill_and_sign_toolbar_text"
+        app:layout_constraintEnd_toStartOf="@id/controls_fill_and_sign_toolbar_cross"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_fill_and_sign_checkmark" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_fill_and_sign_toolbar_cross"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/controls_fill_and_sign_toolbar_btn_description_cross"
+        android:nextFocusLeft="@id/controls_fill_and_sign_toolbar_cross"
+        android:nextFocusRight="@id/controls_fill_and_sign_toolbar_cross"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_fill_and_sign_toolbar_checkmark"
+        app:layout_constraintEnd_toStartOf="@id/controls_fill_and_sign_toolbar_dot"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_fill_and_sign_crossmark" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_fill_and_sign_toolbar_dot"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/controls_fill_and_sign_toolbar_btn_description_dot"
+        android:nextFocusLeft="@id/controls_fill_and_sign_toolbar_dot"
+        android:nextFocusRight="@id/controls_fill_and_sign_toolbar_dot"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_fill_and_sign_toolbar_cross"
+        app:layout_constraintEnd_toStartOf="@id/controls_fill_and_sign_toolbar_signature"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_fill_and_sign_dot" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_fill_and_sign_toolbar_signature"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tools_qm_signature"
+        android:nextFocusLeft="@id/controls_fill_and_sign_toolbar_signature"
+        android:nextFocusRight="@id/controls_fill_and_sign_toolbar_signature"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_fill_and_sign_toolbar_dot"
+        app:layout_constraintEnd_toStartOf="@id/controls_fill_and_sign_toolbar_date"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_annotation_signature_black_24dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_fill_and_sign_toolbar_date"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/controls_fill_and_sign_toolbar_btn_description_date"
+        android:nextFocusLeft="@id/controls_fill_and_sign_toolbar_date"
+        android:nextFocusRight="@id/controls_fill_and_sign_toolbar_date"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintStart_toEndOf="@id/controls_fill_and_sign_toolbar_signature"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_date_range_24px" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

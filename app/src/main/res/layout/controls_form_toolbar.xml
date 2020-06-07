@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/layout_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <FrameLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/controls_annotation_toolbar_tool_pan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include layout="@layout/controls_prepare_form_toolbar"
+            android:id="@+id/prepare_form_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <include layout="@layout/controls_fill_and_sign_toolbar"
+            android:id="@+id/fill_and_sign_layout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_annotation_toolbar_tool_pan"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/controls_annotation_toolbar_tool_description_pan"
+        android:nextFocusLeft="@id/controls_annotation_toolbar_tool_pan"
+        android:nextFocusRight="@id/controls_annotation_toolbar_tool_pan"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/buttons_layout"
+        app:layout_constraintEnd_toStartOf="@id/controls_annotation_toolbar_btn_close"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_pan_black_24dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@id/controls_annotation_toolbar_btn_close"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/action_button_min_width"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/controls_annotation_toolbar_btn_description_close"
+        android:nextFocusLeft="@id/controls_annotation_toolbar_btn_close"
+        android:nextFocusRight="@id/controls_annotation_toolbar_btn_close"
+        android:paddingBottom="@dimen/icon_min_padding"
+        android:paddingTop="@dimen/icon_min_padding"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@id/controls_annotation_toolbar_tool_pan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

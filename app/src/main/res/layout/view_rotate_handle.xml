@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rotate_fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:clickable="false"
+    android:background="@drawable/fab_background"
+    android:tint="@color/tools_selection_control_point"
+    app:srcCompat="@drawable/ic_rotate_left_24px" />

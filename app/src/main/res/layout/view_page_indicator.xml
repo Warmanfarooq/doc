@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/page_number_indicator_bg"
+    app:cardCornerRadius="@dimen/page_number_indicator_radius"
+    app:cardElevation="@dimen/elevation_low">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/page_number_indicator_padding_hor"
+        android:background="?attr/selectableItemBackground"
+        android:paddingTop="@dimen/page_number_indicator_padding_ver"
+        android:paddingRight="@dimen/page_number_indicator_padding_hor"
+        android:paddingBottom="@dimen/page_number_indicator_padding_ver">
+
+        <TextView
+            android:id="@+id/page_number_indicator_all_pages"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_xsmall"
+            android:text="1 of 10" />
+
+        <ProgressBar
+            android:id="@+id/page_number_indicator_spinner"
+            style="?android:attr/indeterminateProgressStyle"
+            android:layout_width="16sp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

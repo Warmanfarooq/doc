@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.pdftron.pdf.utils.AnalyticsAnnotStylePicker mOpenedFromLocation">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsAnnotStylePicker mSelectedColorMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsAnnotStylePicker void selectColor(java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_STANDARD, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_RECENT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_FAVORITE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_COLOR_WHEEL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsAnnotStylePicker void setOpenedLocation(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsAnnotStylePicker void setSelectedColorMode(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsAnnotStylePicker void showAnnotStyleDialog(int, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter java.lang.String getColorPickerType(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter java.lang.String getCropPageAction(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_AUTO, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_MANUAL, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_REMOVE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_NO_ACTION, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_CANCEL_MANUAL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter java.lang.String getCropPageDetails(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_ONE_PAGE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_ALL_PAGES, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_EVEN_ODD_PAGES}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter java.lang.String getQuickMenuNextAction(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SIGNATURE_FIRST_TIME, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SIGNATURE_NEW, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SIGNATURE_USE_SAVED, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SIGNATURE_DISMISS, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SHAPE_ARROW, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SHAPE_POLYLINE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SHAPE_OVAL, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SHAPE_POLYGON, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SHAPE_CLOUD, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_SHAPES_DISMISS, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_FORM_TEXT_FIELD, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_FORM_CHECKBOX, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_FORM_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.NEXT_ACTION_FORM_DISMISS}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter java.lang.String getStylePickerLocation(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_STANDARD, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_RECENT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_FAVORITE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_COLOR_WHEEL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CropPageAction">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_AUTO, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_MANUAL, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_REMOVE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_NO_ACTION, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_CANCEL_MANUAL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CropPageDetails">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_ONE_PAGE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_ALL_PAGES, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_EVEN_ODD_PAGES}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QuickMenuType">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter.StylePickerLocation">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_STANDARD, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_RECENT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_FAVORITE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_COLOR_WHEEL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsHandlerAdapter.StylePickerOpenedLocation">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; cropPageParam(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_AUTO, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_MANUAL, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_REMOVE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_NO_ACTION, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_CANCEL_MANUAL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; cropPageParam(int, int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_AUTO, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_MANUAL, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_REMOVE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_NO_ACTION, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_CANCEL_MANUAL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; cropPageParam(int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_ONE_PAGE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_ALL_PAGES, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.CROP_PAGE_EVEN_ODD_PAGES}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; quickMenuDismissParam(int, boolean) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; quickMenuOpenParam(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; quickMenuParam(int, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; quickMenuParam(int, java.lang.String, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerBasicParam(int, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerCloseParam(boolean, int, java.lang.String) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerDeselectPresetParam(int, java.lang.String, int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectColorParam(java.lang.String, int, int, int, java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_STANDARD, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_RECENT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_FAVORITE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_COLOR_WHEEL}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectColorParam(java.lang.String, int, int, int, java.lang.String, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectColorParam(java.lang.String, int, int, int, java.lang.String, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectEraserParam(boolean, int, java.lang.String) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectOpacityParam(float, int, java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectPresetParam(int, java.lang.String, int, boolean) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectPressureParam(boolean, int, java.lang.String) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectRichTextParam(boolean, int, java.lang.String) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectRulerBaseParam(float, int, java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectRulerTranslateParam(float, int, java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectTextSizeParam(float, int, java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.AnalyticsParam java.util.HashMap&lt;java.lang.String,java.lang.String&gt; stylePickerSelectThicknessParam(float, int, java.lang.String, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.ColorPickerGridViewAdapter.GRID_COLOR_TYPE">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.pdftron.pdf.utils.ColorPickerGridViewAdapter.TYPE_ADD_COLOR, com.pdftron.pdf.utils.ColorPickerGridViewAdapter.TYPE_REMOVE_COLOR, com.pdftron.pdf.utils.ColorPickerGridViewAdapter.TYPE_TRANSPARENT, com.pdftron.pdf.utils.ColorPickerGridViewAdapter.TYPE_RESTORE_COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.utils.PdfViewCtrlSettingsManager void setLinkEditLastOption(android.content.Context, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.DialogLinkEditor.LINK_OPTION_URL, com.pdftron.pdf.tools.DialogLinkEditor.LINK_OPTION_PAGE}" />
+    </annotation>
+  </item>
+</root>
+

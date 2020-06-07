@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.pdftron.pdf.dialog.SimpleDateTimePickerFragment com.pdftron.pdf.dialog.SimpleDateTimePickerFragment newInstance(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.MODE_DATE, com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.MODE_TIME}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.dialog.SimpleDateTimePickerFragment com.pdftron.pdf.dialog.SimpleDateTimePickerFragment newInstance(int, boolean) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.MODE_DATE, com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.MODE_TIME}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.DialogMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.MODE_DATE, com.pdftron.pdf.dialog.SimpleDateTimePickerFragment.MODE_TIME}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.dialog.ViewModePickerDialogFragment java.util.Map&lt;java.lang.String,java.lang.Object&gt; createItem(int, android.graphics.drawable.Drawable, java.lang.String, int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_CONTINUOUS, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_TEXT_SIZE, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_ROTATION, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_USERCROP, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_RTLMODE, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_BLANK, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_COLORMODE, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.ITEM_ID_REFLOW}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.dialog.ViewModePickerDialogFragment java.util.Map&lt;java.lang.String,java.lang.Object&gt; createItem(int, android.graphics.drawable.Drawable, java.lang.String, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.dialog.ViewModePickerDialogFragment.CONTROL_TYPE_RADIO, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.CONTROL_TYPE_SWITCH, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.CONTROL_TYPE_SIZE, com.pdftron.pdf.dialog.ViewModePickerDialogFragment.CONTROL_TYPE_NONE}" />
+    </annotation>
+  </item>
+</root>
+

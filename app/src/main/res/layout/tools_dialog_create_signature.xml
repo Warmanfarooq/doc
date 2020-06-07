@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/tools_dialog_floating_sig_controls_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tools_signature_create_dialog_bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorPrimary">
+
+        <Button
+            android:id="@+id/tools_dialog_floating_sig_button_clear"
+            style="@style/transparent_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dialog_button_default_margin_padding"
+            android:text="@string/clear"
+            android:textColor="@color/tools_colors_white" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/tools_dialog_floating_sig_button_image"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="@dimen/action_button_min_width"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/action_button_min_padding"
+            app:srcCompat="@drawable/ic_add_image_white" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tools_dialog_floating_sig_controls_view"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/tools_dialog_floating_sig_signature_view_margin"
+        android:background="@color/tools_dialog_floating_sig_signature_view">
+
+        <View
+            android:id="@+id/tools_dialog_floating_sig_signhere_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_xxsmall"
+            android:layout_margin="@dimen/tools_dialog_floating_sig_signhere_margin"
+            android:background="@color/tools_dialog_floating_sig_signhere_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tools_dialog_floating_sig_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tools_dialog_floating_sig_sign_here"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/tools_dialog_floating_sig_signhere_text_color"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tools_dialog_floating_sig_signhere_line" />
+
+        <RelativeLayout
+            android:id="@+id/tools_dialog_floating_sig_signature_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/tools_dialog_floating_sig_button_style"
+            android:layout_width="@dimen/action_button_min_width"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_margin="@dimen/action_button_min_padding"
+            android:background="@drawable/tools_signature_picker_dialog_button"
+            app:layout_constraintBottom_toTopOf="@+id/tools_dialog_floating_sig_signhere_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

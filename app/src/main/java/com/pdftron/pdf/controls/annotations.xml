@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.pdftron.pdf.controls.AnnotStyleDialogFragment void openColorPickerView(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.AnnotStyleDialogFragment void show(androidx.fragment.app.FragmentManager, int, java.lang.String) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_QM, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_ANNOT_TOOLBAR, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_SIGNATURE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.STYLE_PICKER_LOC_STICKY_NOTE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.AnnotStyleDialogFragment.SelectColorMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.AnnotStyleView int getColor(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.AnnotStyleView.OnColorLayoutClickedListener void onColorLayoutClicked(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ColorPickerView mColorMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ColorPickerView void show(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.AnnotStyleDialogFragment.STROKE_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.FILL_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.TEXT_COLOR, com.pdftron.pdf.controls.AnnotStyleDialogFragment.COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.CustomColorPickerView void openFavoriteEditDialog(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.FavoriteColorDialogFragment.ADD_COLOR, com.pdftron.pdf.controls.FavoriteColorDialogFragment.EDIT_COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.CustomColorPickerView void setColorsToFavorites(java.util.ArrayList&lt;java.lang.String&gt;, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.FavoriteColorDialogFragment.ADD_COLOR, com.pdftron.pdf.controls.FavoriteColorDialogFragment.EDIT_COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.FavoriteColorDialogFragment.FavoriteDialogMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.FavoriteColorDialogFragment.ADD_COLOR, com.pdftron.pdf.controls.FavoriteColorDialogFragment.EDIT_COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.FavoriteColorDialogFragment.OnEditFinishedListener void onEditFinished(java.util.ArrayList&lt;java.lang.String&gt;, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.FavoriteColorDialogFragment.ADD_COLOR, com.pdftron.pdf.controls.FavoriteColorDialogFragment.EDIT_COLOR}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ThumbnailSlider void setMenuItem(android.graphics.drawable.Drawable, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.ThumbnailSlider.POSITION_LEFT, com.pdftron.pdf.controls.ThumbnailSlider.POSITION_RIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ThumbnailSlider void setMenuItem(int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.ThumbnailSlider.POSITION_LEFT, com.pdftron.pdf.controls.ThumbnailSlider.POSITION_RIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ThumbnailSlider void setMenuItemContentDescription(int, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.ThumbnailSlider.POSITION_LEFT, com.pdftron.pdf.controls.ThumbnailSlider.POSITION_RIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ThumbnailSlider void setMenuItemVisibility(int, int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.ThumbnailSlider.POSITION_LEFT, com.pdftron.pdf.controls.ThumbnailSlider.POSITION_RIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ThumbnailSlider.MenuItemPosition">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.ThumbnailSlider.POSITION_LEFT, com.pdftron.pdf.controls.ThumbnailSlider.POSITION_RIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.controls.ThumbnailSlider.OnMenuItemClickedListener void onMenuItemClicked(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.controls.ThumbnailSlider.POSITION_LEFT, com.pdftron.pdf.controls.ThumbnailSlider.POSITION_RIGHT}" />
+    </annotation>
+  </item>
+</root>
+

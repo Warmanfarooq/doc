@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.pdftron.pdf.tools.AnnotManager void onLocalChange(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.pdftron.pdf.tools.AnnotManager.AnnotationAction.ADD, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.MODIFY, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.DELETE, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.UNDO, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.REDO}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.AnnotManager.AnnotAction">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.pdftron.pdf.tools.AnnotManager.AnnotationAction.ADD, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.MODIFY, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.DELETE, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.UNDO, com.pdftron.pdf.tools.AnnotManager.AnnotationAction.REDO}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.DialogLinkEditor.LinkOption">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.DialogLinkEditor.LINK_OPTION_URL, com.pdftron.pdf.tools.DialogLinkEditor.LINK_OPTION_PAGE}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenu void show(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenuBuilder int getDisplayModeByGroupId(int)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.QuickMenuItem.FIRST_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.SECOND_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.OVERFLOW_ROW_MENU}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenuItem QuickMenuItem(android.content.Context, int, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.QuickMenuItem.FIRST_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.SECOND_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.OVERFLOW_ROW_MENU}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenuItem QuickMenuItem(android.content.Context, java.lang.String, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.QuickMenuItem.FIRST_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.SECOND_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.OVERFLOW_ROW_MENU}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenuItem QuickMenuItem(android.content.Context, java.lang.String, int, int, float) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.QuickMenuItem.FIRST_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.SECOND_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.OVERFLOW_ROW_MENU}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenuItem int getDisplayMode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.QuickMenuItem.FIRST_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.SECOND_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.OVERFLOW_ROW_MENU}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.QuickMenuItem.MenuDisplayMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.tools.QuickMenuItem.FIRST_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.SECOND_ROW_MENU, com.pdftron.pdf.tools.QuickMenuItem.OVERFLOW_ROW_MENU}" />
+    </annotation>
+  </item>
+  <item name="com.pdftron.pdf.tools.Tool int getQuickMenuAnalyticType()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_EMPTY_SPACE, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TEXT_ANNOTATION_SELECT, com.pdftron.pdf.utils.AnalyticsHandlerAdapter.QUICK_MENU_TYPE_TOOL_SELECT}" />
+    </annotation>
+  </item>
+</root>
+
